@@ -1,21 +1,23 @@
- [
-    "Grapefruit",
-    "Pineapple",
-    "Oranges",
-    "Watermelon",
-    "Eggplant"
-  [
-    "Strawberries",
-    "Potatoes",
-    "Grapes",
-    "Avocadoes",
-    "Asparagus"
-  ]
+ORGANIC_PRODUCE = [
+  "Strawberries",
+  "Potatoes",
+  "Grapes",
+  "Avocadoes",
+  "Asparagus"
+]
+
+CONVENTIONAL_PRODUCE = [
+  "Grapefruit",
+  "Pineapple",
+  "Oranges",
+  "Watermelon",
+  "Eggplant"
+]
+
 def assembled_matrix
   [
-  CONVENTIONAL_PRODUCE,
-  ORGANIC_PRODUCE
-    
+    CONVENTIONAL_PRODUCE,
+    ORGANIC_PRODUCE
   ]
 end
 
